@@ -1,0 +1,84 @@
+
+#nav-header
+{
+    border-top: 2px solid #222;
+    border-bottom: 2px solid #222;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+    background-color: gray;
+}
+.navbar-header #com-name
+{
+    color: #222;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    font-size: 1.8em;
+    text-transform: capitalize;
+}
+.navbar-header a:hover
+{
+    text-decoration: none;
+}
+#checkin, #beef, #suchi
+{
+    background-color:rgb(132,132,132);
+    margin-bottom: 15px;
+}
+.container-fluid #our-menu
+{
+    font-size: 1.8em;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-bottom: 40px;
+    margin-top: 6px;
+}
+ #checkin #check, #beef #bef, #suchi #such
+{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar
+{
+    border: 2px solid #000;
+}
+.navbar-header button.navbar-toggle
+{
+    clear: both;
+    margin-top: -60px;
+}
+#bl, #b
+{
+    color: blue;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: .9;
+}
+@media (max-width:767px)
+{
+    #nav-list a
+    {
+        display: block;
+        background-color: white;
+        color: #000;
+        font-size: 1.5em;
+        text-align: center;
+        width: 100%;
+        border: 1.5px solid black;
+    }
+    .col-lg-12
+    {
+        margin:40px;
+    }
+    .navbar-header #com-name
+    {
+        margin-left: 50px;
+    }
+    #checkin #check, #beef #bef, #suchi #such
+    {
+        padding-top: 8px;
+    }
+    
+    
+}
